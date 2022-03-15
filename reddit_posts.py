@@ -1,12 +1,14 @@
 # reddit_posts.py                  By: Samer Al-khateeb
-# This is a modified version of the code provided here 
+# This script was inspired and can be considered as a modified 
+# version of the code provided here 
 # https://towardsdatascience.com/how-to-use-the-reddit-api-in-python-5e05ddfd1e5c
-# given a subreddit name all its posts will be collected
 
+# Given a subreddit name all its posts will be collected
 
 # go to main() function and enter the needed credentials
 # and the subreddit name then run the code, you should get 
 # an output file named reddit_posts_output.csv
+
 
 import requests
 import json
