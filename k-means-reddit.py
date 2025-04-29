@@ -139,7 +139,7 @@ plt.show()
 #############BY NOW YOU SHOULD KNOW THE OPTIMAL NUMBER OF CLUSTERS######################
 ### ADJUST THE CODE BELOW ###
 # 4) Running K-Means - Adjust optimal_k based on the plots above
-optimal_k = 9 # Update this based on the plots
+optimal_k = XX # Update XX based on the plots
 kmeans = KMeans(n_clusters=optimal_k, random_state=42, n_init=10)
 clusters = kmeans.fit_predict(data_scaled) # data_pca
 
